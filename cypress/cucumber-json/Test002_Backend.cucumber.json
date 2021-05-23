@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Api cervecería",
+    "line": 1,
+    "id": "api-cervecería",
+    "tags": [],
+    "uri": "Test002_Backend.feature",
+    "elements": [
+      {
+        "id": "api-cervecería;varificar-los-datos-resultantes-de-la-consulta",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Varificar los datos resultantes de la consulta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "El siguiente endpoint \"https://api.openbrewerydb.org/breweries/\"",
+            "result": {
+              "status": "passed",
+              "duration": 622000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Agrego parametros \"autocomplete?query=lagunitas\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Ejecuto el metodo \"GET\"",
+            "result": {
+              "status": "passed",
+              "duration": 4577000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "Del resultado tomar el ID del key \"name\" -> \"Lagunitas Brewing Co\"",
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Obtener el detalle de la cervecería con key \"state\" -> \"California\"",
+            "result": {
+              "status": "passed",
+              "duration": 1607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Valido los datos resultantes",
+            "result": {
+              "status": "passed",
+              "duration": 495000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+    "ignoreTestFiles": "*.js",  
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false,
+    "env":{
+        "UrlApi":"https://api.openbrewerydb.org/breweries/"
+    }
+}

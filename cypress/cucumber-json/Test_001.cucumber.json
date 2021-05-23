@@ -1,0 +1,152 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Google Homepage Search",
+    "line": 1,
+    "id": "google-homepage-search",
+    "tags": [],
+    "uri": "Test_001.feature",
+    "elements": [
+      {
+        "id": "google-homepage-search;el-usuario-puede-buscar-mediante-“google-search”",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "El usuario puede buscar mediante “Google Search”",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Me encuentro en la página principal de \"Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 7983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Tipeo \"The name of the wind\" dentro del campo de búsqueda",
+            "result": {
+              "status": "passed",
+              "duration": 9500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Clickeo en el boton \"Google Search\"",
+            "result": {
+              "status": "passed",
+              "duration": 14063000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Me dirige a la página de resultados",
+            "result": {
+              "status": "passed",
+              "duration": 351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Busco el resultado \"The Books - Patrick Rothfuss\" y accedo al sitio",
+            "result": {
+              "status": "passed",
+              "duration": 6292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Me dirige a la página de \"Patrick Rothfuss - The Books\"",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-homepage-search;usuario-puede-buscar-mediante-sugerencias",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Usuario puede buscar mediante sugerencias",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Me encuentro en la página principal de \"Google\"",
+            "result": {
+              "status": "passed",
+              "duration": 5056000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "Tipeo \"The name of the w\" dentro del campo de búsqueda",
+            "result": {
+              "status": "passed",
+              "duration": 5344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Clickeo en la primer opción sugerida",
+            "result": {
+              "status": "passed",
+              "duration": 19122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Me dirige a la página de resultados",
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Busco el resultado \"The Books - Patrick Rothfuss\" y accedo al sitio",
+            "result": {
+              "status": "passed",
+              "duration": 4376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Me dirige a la página de \"Patrick Rothfuss - The Books\"",
+            "result": {
+              "status": "passed",
+              "duration": 557000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
